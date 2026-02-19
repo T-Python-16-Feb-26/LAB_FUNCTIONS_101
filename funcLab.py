@@ -21,5 +21,3 @@ elif 2:
     print(pyramidFunction.__doc__)
 else:
     print("invalid input")
-#help(pyramidFunction)
-#' ' * (n - i) + '*' * (2 * i - 1)
