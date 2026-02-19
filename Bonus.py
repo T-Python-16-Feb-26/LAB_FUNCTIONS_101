@@ -8,7 +8,6 @@ def descending_number(num:int)->str:
     return result
 
 user_input = int(input("Enter a number: "))
-
 result_descending_number=descending_number(user_input)
 print(result_descending_number)
 print(descending_number.__doc__)

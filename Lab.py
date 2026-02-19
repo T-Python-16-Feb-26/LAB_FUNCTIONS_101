@@ -7,5 +7,4 @@ def descending_number(num:int):
 
 user_input = int(input("Enter a number: "))
 descending_number(user_input)
-
 print(descending_number.__doc__)
