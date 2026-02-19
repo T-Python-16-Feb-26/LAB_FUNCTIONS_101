@@ -1,4 +1,6 @@
 def functions(a: int):
+    '''Returns a descending number pattern from the given integer down to 1 as a string'''
+
     result = ""
 
     for i in range(a, 0, -1):
@@ -10,3 +12,5 @@ def functions(a: int):
 
 pattern = functions(8)
 print(pattern)
+
+print(functions.__doc__)
