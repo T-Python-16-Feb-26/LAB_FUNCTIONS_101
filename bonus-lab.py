@@ -14,7 +14,7 @@ def pyramidFunction(n):
             
         var4print += "\n"
         num = n - i
-    print(var4print)
+    return var4print
 
 if int(input("chose to use the function or get docs on it, 1 for using the function, 2 for getting docs:")) == 1:
     pyramidFunction(int(input("enter the number of levels for the pyramid:")))
